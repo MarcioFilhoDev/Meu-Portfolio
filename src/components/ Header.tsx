@@ -52,12 +52,6 @@ export default function Header({ userData }: HeaderProps) {
             <span className="font-mono">LinkedIn</span>
           </a>
         </button>
-
-        <button className="flex flex-1 text-text-2 justify-center hover:bg-text-2/10 transition-colors py-3 border-l border-text-2/10">
-          <a href="https://www.linkedin.com/in/marciodev/" target="_blank">
-            <span className="font-mono">Área administrativa</span>
-          </a>
-        </button>
       </div>
     </header>
   );
